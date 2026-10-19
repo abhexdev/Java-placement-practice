@@ -7,8 +7,8 @@ public class UpdateBit {
         Scanner sc = new Scanner(System.in);
 
         int operation = sc.nextInt(); //operation == 1; setBit or Operation == 0; updatebit
-        int n = 5;
-        int pos = 1;
+        int n = 10;  //1010
+        int pos = 2;
 
         int bitMask = 1 << pos;
 
